@@ -1,0 +1,115 @@
+:root {
+    --red: #e50914;
+    --black: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*MAIN OF BEGIN*/
+
+
+body {
+    background: var(--black);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .Logo {
+    color: var(--red);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+   
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 20px;
+    transition: 1s;
+}
+
+header nav a:hover {
+   color: white;
+}
+
+
+/*MAIN MOVIE*/
+
+
+.main-movie {
+    font-size: 26px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url(../img/Brooklyn-99-Header-Cropped.jpg);
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.title {
+    margin-top:5%;
+    font-size: 90px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+.main-movie .description {
+    margin-top: 25px;
+    margin-bottom: 90px;
+   
+}
+
+.button {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.button i {
+    margin-right: 8px;
+}
+
+
+.container {
+    margin-left: 16px;
+}
+
+.main-movie .container {
+    width: 90%;
+}
+
+.box-movie {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-movies {
+    margin-top: 10px;
+}
